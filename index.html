@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head> <meta name="google-site-verification" content="gGUVr3QXm41J1y4mB9AuAMbhGgSYkaNrXfEf1QvXVXA" />
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Эко Лаваш 🌯</title>
 
 <style>
-
 body{
 margin:0;
 font-family:Arial,sans-serif;
@@ -15,73 +15,64 @@ color:white;
 }
 
 .hero{
-background:linear-gradient(135deg,#ff7a00,#ffb300);
+background:linear-gradient(135deg,#ff7a00,#ffcc00);
 padding:70px 20px;
 text-align:center;
 }
 
 .hero h1{
-font-size:52px;
+font-size:42px;
 margin:0;
 }
 
 .hero p{
-font-size:20px;
+font-size:18px;
 margin-top:10px;
 }
 
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:16px 38px;
-background:black;
-color:white;
-text-decoration:none;
-border-radius:15px;
-font-size:20px;
-font-weight:bold;
-}
-
 .menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 padding:20px;
 }
 
 .card{
-background:#1d1d1d;
-padding:20px;
-margin-bottom:25px;
-border-radius:22px;
-text-align:center;
-box-shadow:0 0 20px rgba(0,0,0,0.5);
+background:#1b1b1b;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.4);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
 }
 
 .card h2{
-font-size:34px;
-margin-top:10px;
-margin-bottom:10px;
+margin:15px;
+font-size:24px;
 }
 
 .price{
+margin:0 15px 20px;
+font-size:22px;
 color:#ffcc00;
-font-size:28px;
 font-weight:bold;
-}
-
-img{
-width:100%;
-border-radius:20px;
-margin-bottom:15px;
-height:260px;
-object-fit:cover;
 }
 
 footer{
 text-align:center;
 padding:30px;
-color:#999;
-font-size:14px;
+background:#000;
+margin-top:40px;
 }
-
 </style>
 </head>
 
@@ -89,85 +80,63 @@ font-size:14px;
 
 <div class="hero">
 <h1>Эко Лаваш 🌯</h1>
-<p>Самый сочный фастфуд в городе</p>
-
-<a class="btn" href="https://t.me/">
-Заказать сейчас
-</a>
+<p>Вкусный фастфуд в твоем городе</p>
 </div>
 
 <div class="menu">
 
 <div class="card">
-<img src="blackburger.jpg">
+<img src="IMG_0704.jpeg">
 <h2>Блэкбургер</h2>
 <p class="price">35 сомони</p>
 </div>
 
 <div class="card">
-<img src="burger.jpg">
-<h2>Дабл чизбургер</h2>
-<p class="price">45 сомони</p>
+<img src="IMG_0705.jpeg">
+<h2>Стрипсы</h2>
+<p class="price">10 сомони</p>
 </div>
 
 <div class="card">
-<img src="chickenburger.jpg">
+<img src="IMG_1296.jpeg">
+<h2>Маффин на завтрак</h2>
+<p class="price">25 сомони</p>
+</div>
+
+<div class="card">
+<img src="IMG_1297.jpeg">
+<h2>Чизбургер</h2>
+<p class="price">30 сомони</p>
+</div>
+
+<div class="card">
+<img src="ADC50086-F8D0-4291-8C11-AC29DE.jpeg">
 <h2>Чикенбургер</h2>
 <p class="price">20 сомони</p>
 </div>
 
 <div class="card">
-<img src="hotdogset.jpg">
-<h2>Дабл хот-дог</h2>
-<p class="price">13 сомони</p>
+<img src="F405AFF3-05B9-49C9-BACF-02E0D6.jpeg">
+<h2>Шаурма</h2>
+<p class="price">20-25 сомони</p>
 </div>
 
 <div class="card">
-<img src="shawarma.jpg">
-<h2>Шаурма с курицей</h2>
-<p class="price">25 сомони</p>
-</div>
-
-<div class="card">
-<img src="menu.jpg">
-<h2>Шаурма с говядиной</h2>
-<p class="price">30 сомони</p>
-</div>
-
-<div class="card">
-<img src="strips.jpg">
-<h2>Стрипсы 100гр</h2>
-<p class="price">10 сомони</p>
-</div>
-
-<div class="card">
-<img src="maffin.jpg">
-<h2>Маффины на завтрак</h2>
-<p class="price">25 сомони</p>
-</div>
-
-<div class="card">
-<img src="combo.jpg">
+<img src="3D6CFB7A-C64B-4072-951A-10B11627.jpeg">
 <h2>Royal Combo</h2>
 <p class="price">29 сомони</p>
 </div>
 
 <div class="card">
-<img src="lunch.jpg">
+<img src="8b695c0a-e83c-4d05-b590-229f0828.jpeg">
 <h2>Lunch бо гушти гов</h2>
 <p class="price">43 сомони</p>
-</div>
-
-<div class="card">
-<img src="02EF5C83-384C-45AE-80A7-642E299749E9.jpeg">
-<h2>Картошка фри</h2>
-<p class="price">10 сомони</p>
 </div>
 
 </div>
 
 <footer>
-© 2026 Эко Лаваш — Вкус, который хочется снова 🌯
+© 2026 Эко Лаваш
 </footer>
 
 </body>
