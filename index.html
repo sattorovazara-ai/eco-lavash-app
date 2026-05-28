@@ -1,16 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Эко Лаваш</title>
-</head>
-<body style="font-family: Arial; text-align:center; padding:40px;">
-  <h1>Эко Лаваш 🌯</h1>
-  <p>Добро пожаловать в приложение Эко Лаваш</p>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Эко Лаваш</title>
 
-  <button style="padding:15px 30px; font-size:20px;">
-    Заказать
-  </button>
+<style>
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#111;
+color:white;
+}
+
+.hero{
+background:linear-gradient(135deg,#ff7a00,#ffb300);
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+margin:0;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:black;
+color:white;
+text-decoration:none;
+border-radius:15px;
+font-size:20px;
+}
+
+.menu{
+padding:20px;
+}
+
+.card{
+background:#1d1d1d;
+padding:20px;
+margin-bottom:20px;
+border-radius:20px;
+text-align:center;
+}
+
+.price{
+color:#ffcc00;
+font-size:24px;
+font-weight:bold;
+}
+
+img{
+width:100%;
+border-radius:20px;
+margin-bottom:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>Эко Лаваш 🌯</h1>
+<p>Самая сочная шаурма в городе</p>
+
+<a class="btn" href="https://t.me/">
+Заказать
+</a>
+</div>
+
+<div class="menu">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1643077450494-599c1a1a5a97?q=80&w=1200&auto=format&fit=crop">
+
+<h2>Шаурма с курицей</h2>
+<p class="price">25 сомони</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop">
+
+<h2>Чизбургер</h2>
+<p class="price">30 сомони</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1612392062798-63d3634f7f51?q=80&w=1200&auto=format&fit=crop">
+
+<h2>Хот-дог</h2>
+<p class="price">9 сомони</p>
+</div>
+
+</div>
+
 </body>
 </html>
